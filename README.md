@@ -1,7 +1,7 @@
-<h4><b>About itrack</b></h4>
+<h2><b>About itrack</b></h2>
 
-<p>itrack is a tracking full CRUD web app created by Daniel Peprah. It is meant to be used for tracking items together with their stockings and issuings.
-Its features include:</p>
+itrack is a tracking full CRUD web app created by Daniel Peprah. It is meant to be used for tracking items together with their stockings and issuings.
+Its features include:
 •	Creating or adding of new users
 •	Creating or adding of new items
 •	Stocking items
@@ -14,20 +14,20 @@ Its features include:</p>
 •	User blocking mechanism/feature
 •	It also has a feature of logging CRUD activities to a database table, and also to a file (can be found in storage/logs/activity.txt)
 
-<h4><b>How to use it</h4>
+<h2><b>How to use it</h2>
 
-<b>NB: I am assuming you are already familiar with at least the basics of Laravel. Otherwise you can contact me via <b>peprahdaniel.dp@gmail.com</b> for any help or explanations needed. Also, you can visit <a href="https://laravel.com/docs">Laravel</a> and read the documentation.</b>
+NB: I am assuming you are already familiar with at least the basics of Laravel. Otherwise you can contact me via <b>peprahdaniel.dp@gmail.com</b> for any help or explanations needed. Also, you can visit <a href="https://laravel.com/docs">Laravel</a> and read the documentation.
 
-<h4>Database configuration</>
+<h2><b>Database configuration</b></h2>
 
-<p>First and foremost, open the .env file and make changes to the following to suit your system</p>
+First and foremost, open the .env file and make changes to the following to suit your system
 •	DB_CONNECTION=your_datasource_connection(eg.mysql)
 •	DB_HOST=127.0.0.1
 •	DB_PORT=your_datasource_connection_port(eg.3306)
 •	DB_DATABASE=your_database
 •	DB_USERNAME=your_username
 •	DB_PASSWORD=your_password
-<p>When you are done, make sure you create the database, and run migrations (with artisan command: php artisan migrate)
+When you are done, make sure you create the database, and run migrations (with artisan command: php artisan migrate)
 After running migrations with no errors generated, go ahead and start the server (with artisan command: php artisan serve)
   
 Now, there is the need to have a superadmin, so opena browser and visit the url:<b>127.0.0.1:8000/create_superuser</b>. If no errors/exceptions are thrown, it means you have successfully created a super admin with the following details:
@@ -52,6 +52,4 @@ Twitter: <a href="https://twitter.com/devleinad">devleinad</a>
 Email:peprahdaniel.dp@gmail.com
 
 
-Thank you!!
-
-</p>
+<h2>Thank you!!</h2>

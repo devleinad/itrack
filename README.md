@@ -37,10 +37,12 @@ When you are done, make sure you create the database, and run migrations (with a
 After running migrations with no errors generated, go ahead and start the server (with artisan command: php artisan serve)
   
 Now, there is the need to have a superadmin, so opena browser and visit the url: <b>127.0.0.1:8000/create_superuser</b>. If no errors/exceptions are thrown, it means you have successfully created a super admin with the following details:
-Name: Admin
-Email: superadmin@admin.com
-Designation: IT Technician
-Password:admin
+<ul>
+  <li>Name: Admin</li>
+  <li>Email: superadmin@admin.com</li>
+  <li>Designation: IT Technician</li>
+  <li>Password:admin</li>
+</ul>
 
 You can make changes inside the web/routes.php file, but know that the email has been used to set policy logics, so if you decide to change it, you’d have to visit the various policy files inside <b>app/Policies</b> and change the email there as well.
 Also, if you decide to change the email, you’d have to change the email inside the isSuperAdmin() method inside the <b>app/Models/User.php</b> file. The isSuperAdmin() is a method used to check if a user is superadmin or not.

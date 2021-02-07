@@ -56,8 +56,10 @@ Also, note that only superadmin would be able to view or delete activity logs.
 
 
 Please, if you find my work interesting and would like to work with me, you can contact me on the following platforms:
-Twitter: <a href="https://twitter.com/devleinad">@devleinad</a>
-Email:peprahdaniel.dp@gmail.com
+<ul>
+  <li>Twitter: <a href="https://twitter.com/devleinad">@devleinad</a></li>
+  <li>Email:peprahdaniel.dp@gmail.com</li>
+</ul>
 
 
 <h2>Thank you!!</h2>

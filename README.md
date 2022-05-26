@@ -1,6 +1,6 @@
 <h2><b>About itrack</b></h2>
 
-itrack is a tracking full CRUD web app created by Daniel Peprah. It is meant to be used for tracking items together with their stockings and issuings.
+itrack is a full Item stockings and issuings tracking web app.
 Its features include:
 <ul>
   <li>Creating or adding of new users</li>

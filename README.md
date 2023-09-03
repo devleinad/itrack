@@ -1,13 +1,13 @@
 <h2><b>About itrack</b></h2>
 
-itrack is a full Item stockings and issuings tracking web app.
+Itrack is a full-featured Item stocking and issuing tracking web app.
 Its features include:
 <ul>
   <li>Creating or adding of new users</li>
   <li>Creating or adding of new items</li>
   <li>Stocking items</li>
   <li>Issuing items</li>
-  <li>Controlling user actions with laravel policies</li>
+  <li>Controlling user actions with Laravel policies</li>
   <li>Updating user details</li>
   <li>Updating item details</li>
   <li>Updating stockings</li>
@@ -19,11 +19,11 @@ Its features include:
 
 <h2><b>How to use it</h2>
 
-NB: I am assuming you are already familiar with at least the basics of Laravel. Otherwise you can contact me via <b>peprahdaniel.dp@gmail.com</b> for any help or explanations needed. Also, you can visit <a href="https://laravel.com/docs">Laravel</a> and read the documentation.
+NB: I am assuming you are already familiar with at least the basics of Laravel. Otherwise, you can contact me at <b>peprahdaniel.dp@gmail.com</b> for any help or explanations needed. Also, you can visit <a href="https://laravel.com/docs">Laravel</a> and read the documentation.
 
 <h2><b>Database configuration</b></h2>
 
-First and foremost, open the .env file and make changes to the following to suit your system
+First and foremost, open the.env file and make changes to the following to suit your system
 <ul>
   <li>DB_CONNECTION=your_datasource_connection(eg.mysql)</li>  
   <li>DB_HOST=127.0.0.1</li>  
